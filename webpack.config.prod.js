@@ -6,9 +6,9 @@ module.exports = {
   entry: path.resolve(__dirname, 'lib/index'),
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'react-simple-chatbot.js',
+    filename: 'chatbot-message-ui.js',
     publicPath: 'dist/',
-    library: 'ReactSimpleChatbot',
+    library: 'ChatbotMessageUI',
     libraryTarget: 'umd',
   },
   resolve: {

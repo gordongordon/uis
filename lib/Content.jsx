@@ -1,14 +1,9 @@
 import styled from 'styled-components';
 
 const Content = styled.div`
-  height: 400px;
-  overflow-y: scroll;
   margin-top: 2px;
-  padding-top: 6px;
-
-  @media screen and (max-width: 568px) {
-    height: ${props => props.floating ? 'calc(100% - 112px)' : ''};
-  }
+  padding-top: 2px;
+  border: 1px solid rgba(0,0,0,.1);
 `;
 
 export default Content;
